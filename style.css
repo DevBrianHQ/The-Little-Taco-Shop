@@ -3,17 +3,25 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
+    background-color: #333;
+    color: whitesmoke;
 }
 
-th, td, caption {
-    border: 1px solid #333;
+a {
+    color: rgb(240, 9, 9);
+}
+
+a:visited {
+    color: rgb(1, 6, 77);
+}
+
+a:hover, a:active {
+    color: #18f008;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
     font-family: 'Courier New', Courier, monospace;
-    border-collapse: separate;
+    border-collapse: collapse;
     padding: 0.5rem;
 }
