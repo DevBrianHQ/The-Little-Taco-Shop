@@ -1,6 +1,7 @@
 # The Little Taco Shop
 
-Welcome to the Little Taco Shop!
+Welcome to the Little Taco Shop! Check out our website deployed on Vercel: [The Little Taco Shop](https://the-little-taco-shop-nu.vercel.app/)
+
 
 ## Table of Contents
 - [About LTS](#about-lts)
