@@ -1,6 +1,6 @@
 # The Little Taco Shop
 
-Welcome to the Little Taco Shop! Check out our website: <a href="https://the-little-taco-shop-nu.vercel.app/" target="_blank">The Little Taco Shop</a>
+Welcome to the Little Taco Shop! Check out our website deployed on Vercel: [The Little Taco Shop](https://the-little-taco-shop-nu.vercel.app/)
 
 
 ## Table of Contents
