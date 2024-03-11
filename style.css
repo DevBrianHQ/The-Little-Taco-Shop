@@ -47,3 +47,19 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+figure {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2, h3 {
+    color: var(--primary-color);
+}
+
+th, td, caption {
+    border: 1px solid var(--primary-color) ;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
