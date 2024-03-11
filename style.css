@@ -15,9 +15,16 @@ body {
     line-height: 1.6;
     min-height: 100vh;
     margin: auto;
-    padding: 6rem;
+    padding: 1rem;
     border-left: 3px solid var(--primary-color);
     border-right: 3px solid var(--primary-color);
     color: var(--text-color);
     
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
 }
