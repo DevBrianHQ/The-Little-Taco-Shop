@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0066cc;
+    --primary-color: #0a58a7;
     --accent-color: #db0707;
     --background-color: #f0f0f0;
     --text-color: #333;
@@ -24,7 +24,26 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: #f0f0f0;
+    color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right:20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
