@@ -13,4 +13,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.6;
+    min-height: 100vh;
+    margin: auto;
+    padding: 6rem;
+    border-left: 3px solid var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+    color: var(--text-color);
+    
 }
