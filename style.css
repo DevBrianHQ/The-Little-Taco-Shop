@@ -1,131 +1,203 @@
+/* Variable declarations for colors */
 :root {
     --primary-color: #0a58a7;
+    /* Primary color for headings, links, etc. */
     --accent-color: #db0707;
+    /* Accent color for buttons */
     --background-color: #f0f0f0;
+    /* Background color for the page */
     --text-color: #333;
-}   
+    /* Text color */
+}
 
+/* Base font size for the entire document */
 html {
     font-size: 18px;
 }
 
+/* Body styles */
 body {
     font-family: 'Roboto', sans-serif;
+    /* Font family for the entire body */
     font-size: 18px;
+    /* Font size for the body */
     line-height: 1.6;
+    /* Line height */
     min-height: 100vh;
+    /* Minimum height of the viewport */
     margin: auto;
+    /* Center the content horizontally */
     padding: 1rem;
+    /* Padding for the body */
     border-left: 3px solid var(--primary-color);
+    /* Left border color */
     border-right: 3px solid var(--primary-color);
+    /* Right border color */
     color: var(--text-color);
-    
+    /* Text color */
 }
 
+/* Header styles */
 header {
     background-color: var(--primary-color);
+    /* Background color for the header */
     color: #fff;
+    /* Text color */
     text-align: center;
+    /* Center align text */
     padding: 20px;
+    /* Padding for the header */
 }
 
+/* Navigation menu styles */
 nav ul {
     list-style-type: none;
+    /* Remove list styles */
     padding: 0;
+    /* Remove padding */
 }
 
 nav li {
     display: inline;
-    margin-right:20px;
+    /* Display inline */
+    margin-right: 20px;
+    /* Margin between navigation items */
 }
 
 nav a {
     text-decoration: none;
+    /* Remove underline from links */
     color: #fff;
+    /* Text color */
 }
 
 nav a:hover {
     text-decoration: underline;
+    /* Underline on hover */
 }
 
+/* Figure styles */
 figure {
     margin-top: 10px;
+    /* Margin top */
     text-align: center;
+    /* Center align text */
 }
 
-h2, h3 {
+/* Heading styles */
+h2,
+h3 {
     color: var(--primary-color);
+    /* Color for headings */
 }
 
-th, td, caption {
-    border: 1px solid var(--primary-color) ;
+/* Table styles */
+th,
+td,
+caption {
+    border: 1px solid var(--primary-color);
+    /* Border color */
     font-family: 'Courier New', Courier, monospace;
+    /* Font family */
     border-collapse: separate;
+    /* Separate border */
     padding: 0.5rem;
+    /* Padding */
 }
 
+/* Footer styles */
 footer {
     background-color: var(--primary-color);
+    /* Background color */
     color: #fff;
+    /* Text color */
     text-align: center;
+    /* Center align text */
     padding: 20px;
+    /* Padding */
 }
 
+/* Form styles */
 form {
     max-width: 400px;
+    /* Maximum width of the form */
     margin: auto;
+    /* Center align the form */
 }
 
 label {
     display: block;
+    /* Display block */
     margin-bottom: 5px;
+    /* Margin bottom */
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
+    /* Full width */
     padding: 10px;
+    /* Padding */
     margin-bottom: 10px;
+    /* Margin bottom */
     box-sizing: border-box;
+    /* Border-box sizing */
 }
 
 button {
     background-color: var(--primary-color);
+    /* Background color */
     color: #fff;
+    /* Text color */
     padding: 10px 20px;
+    /* Padding */
     cursor: pointer;
+    /* Pointer cursor */
     margin-right: 20px;
+    /* Margin right */
 }
 
-button :hover {
+button:hover {
     background-color: var(--accent-color);
+    /* Accent color on hover */
 }
 
+/* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
     body {
         max-width: 100%;
+        /* Full width */
         padding: 0.5rem;
+        /* Padding */
         border: none;
+        /* No border */
     }
 
     header,
     footer {
         padding: 10px;
+        /* Padding */
     }
 
     nav ul {
         text-align: center;
+        /* Center align text */
     }
 
     nav li {
         display: block;
+        /* Display block */
         margin: 5px 0;
+        /* Margin */
     }
 
     figure {
         margin-top: 10px;
+        /* Margin top */
     }
 
     main {
         padding: 10px;
+        /* Padding */
     }
 }
