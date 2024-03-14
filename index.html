@@ -2,59 +2,92 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags for defining character set, developer, description, keywords, and viewport -->
     <meta charset="UTF-8">
-    <meta  name="Developer" content="DevBrian">
-    <meta  name="description" content="Official website of the little taco shop">
+    <meta name="Developer" content="DevBrian">
+    <meta name="description" content="Official website of the Little Taco Shop">
     <meta name="keywords" content="HTML, HTML5, CSS">
     <meta name="viewport" content="width=device-width">
+
+    <!-- Title of the webpage -->
     <title>A tacos web page</title>
+
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="./style.css">
+
+    <!-- Link to favicon -->
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
-        <h1>Welcome to the Little Taco shop</h1>
+        <!-- Heading with the name of the taco shop -->
+        <h1>Welcome to the Little Taco Shop</h1>
+
+        <!-- Navigation menu -->
         <nav>
             <ul>
+                <!-- Navigation links -->
                 <li><a href="#aboutLTS">About LTS</a></li>
                 <li><a href="#menu">Our Menu</a></li>
                 <li><a href="hours.html">Store Hours</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-
         </nav>
-        
+
+        <!-- Image of tacos and a drink with a caption -->
         <figure>
-            <img src="img/tacos_and_drink_400x267.png" alt="Tacos and a Drink." width="400" height="267" title="tacos and a drink">
+            <img src="img/tacos_and_drink_400x267.png" alt="Tacos and a Drink." width="400" height="267"
+                title="Tacos and a drink">
             <figcaption>
                 Tacos and a Drink
             </figcaption>
         </figure>
     </header>
     <hr>
+    <!-- Main content section -->
     <main>
+        <!-- Article about the Little Taco Shop -->
         <article id="aboutLTS">
+            <!-- Heading for the article -->
             <h2>About LTS</h2>
+
+            <!-- Paragraph describing the Little Taco Shop -->
             <p>
-                <abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>.Our shop was built from a <strong>love of tacos</strong>. We hope our shop adds our unique and intersting place in our town
+                <abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was
+                built from a <strong>love of tacos</strong>. We hope our shop adds our unique and interesting place in
+                our town.
             </p>
 
+            <!-- Aside section with Taco Trivia -->
             <aside>
+                <!-- Heading for Taco Trivia -->
                 <h3>Taco Trivia</h3>
+
+                <!-- Details element with summary and information -->
                 <details>
                     <summary>When did tacos first appear in the United States?</summary>
-                        <p>
-                            Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, states that the earliest mention of tacos in the United States is found in a newspaper from <time datetime="1905">1905</time>. (Source: <cite><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank">Smithsonian Magazine</a></cite>)
-                        </p>
-                    
+                    <p>
+                        Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota,
+                        states that the earliest mention of tacos in the United States is found in a newspaper from
+                        <time datetime="1905">1905</time>. (Source: <cite><a
+                                href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                                target="_blank">Smithsonian Magazine</a></cite>)
+                    </p>
                 </details>
             </aside>
             <hr>
+
+            <!-- Subheading for the menu -->
             <h3 id="menu">Our menu</h3>
+
+            <!-- Table displaying the menu -->
             <table>
+                <!-- Table caption -->
                 <caption>Our Tacos</caption>
+
+                <!-- Table header -->
                 <thead>
                     <tr>
                         <th scope="col">Our tacos</th>
@@ -62,7 +95,10 @@
                         <th scope="col">Price</th>
                     </tr>
                 </thead>
+
+                <!-- Table body -->
                 <tbody>
+                    <!-- Rows for Crunchy tacos -->
                     <tr>
                         <th scope="row" rowspan="3">Crunchy</th>
                         <td>1</td>
@@ -76,6 +112,8 @@
                         <td>3</td>
                         <td>$3.50</td>
                     </tr>
+
+                    <!-- Rows for Soft tacos -->
                     <tr>
                         <th scope="row" rowspan="3">Soft</th>
                         <td>1</td>
@@ -90,18 +128,25 @@
                         <td>$4.50</td>
                     </tr>
                 </tbody>
+
+                <!-- Table footer -->
                 <tfoot>
                     <tr>
-                        <td colspan="3">Chips and Salasa $2</td>
+                        <td colspan="3">Chips and Salsa $2</td>
                     </tr>
                 </tfoot>
             </table>
             <br>
+
+            <!-- Link to go back to the top -->
             <a href="#">Back to Top</a>
         </article>
     </main>
     <hr>
+
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright information -->
         Copyright &copy; The Little Taco Shop
     </footer>
 </body>
