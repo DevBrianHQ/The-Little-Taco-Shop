@@ -1,71 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Meta tags for defining character set, developer, description, and keywords -->
     <meta charset="UTF-8">
     <meta name="Developer" content="DevBrian">
-    <meta name="description" content="This is is where you contact us">
+    <meta name="description" content="This is where you contact us">
     <meta name="keywords" content="HTML, CSS">
+    <!-- Title of the webpage -->
     <title>Contact page</title>
-    <link rel="stylesheet" href="style.css"> 
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Heading with the title of the contact page -->
         <h1>Contact Us</h1>
+        <!-- Navigation menu -->
         <nav>
             <ul>
+                <!-- Navigation links -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#aboutLTS">About LTS</a></li>
                 <li><a href="index.html#menu">Our Menu</a></li>
                 <li><a href="hours.html">Store Hours</a></li>
             </ul>
+            <!-- Image of tacos with a caption -->
             <figure>
-                <img src="img/tacos_close_up_400x260.png" alt="Close-up of Tacos" title="Tacos on close up" width="400" height="260">
+                <img src="img/tacos_close_up_400x260.png" alt="Close-up of Tacos" title="Tacos on close up" width="400"
+                    height="260">
                 <figcaption>
                     Little Tacos Shop Tacos
                 </figcaption>
             </figure>
         </nav>
     </header>
+    <!-- Main content section -->
     <main>
+        <!-- Article containing the contact form -->
         <article>
-            <form action="https://httpbin.org/get" method="get" >
+            <!-- Contact form -->
+            <form action="https://httpbin.org/get" method="get">
+                <!-- Heading for the contact form -->
                 <h3>Our Contact Form</h3>
+                <!-- Fieldset for grouping form elements -->
                 <fieldset>
+                    <!-- Legend for the fieldset -->
                     <legend>Send Us A Message</legend>
+                    <!-- Input field for name -->
                     <p>
                         <label for="name">Name: </label>
                         <input type="text" id="name" name="name" placeholder="your name">
                     </p>
+                    <!-- Input field for email -->
                     <p>
                         <label for="email">Email: </label>
                         <input type="text" id="email" name="email" placeholder="Your Email">
                     </p>
+                    <!-- Textarea for message -->
                     <p>
                         <label for="message">Your Message: </label>
                         <br>
-                        <textarea name="Message" id="message" cols="30" rows="10" placeholder=" type your message here"></textarea>
+                        <textarea name="Message" id="message" cols="30" rows="10"
+                            placeholder=" type your message here"></textarea>
                     </p>
                 </fieldset>
-                <button type="submit" >Submit</button>
+                <!-- Submit and reset buttons -->
+                <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
             </form>
+            <!-- Section for displaying location -->
             <section>
+                <!-- Heading for location -->
                 <h3>Our location</h3>
+                <!-- Address of the Little Taco Shop -->
                 <address>
                     555 Taco Temptation Lane, <br>
-                    Suite T Kansas City, MO 55555-5555 
+                    Suite T Kansas City, MO 55555-5555
                     <br>
-                    phone: <a href="tel:1234567890">123-456-7890</a>
+                    Phone: <a href="tel:1234567890">123-456-7890</a>
                 </address>
             </section>
+            <!-- Back to top link -->
             <p>
                 <a href="#">Back To Top</a>
             </p>
-        </article> 
+        </article>
     </main>
     <hr>
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright information -->
         Copyright &copy; The Little Taco Shop
     </footer>
 </body>
+
 </html>
